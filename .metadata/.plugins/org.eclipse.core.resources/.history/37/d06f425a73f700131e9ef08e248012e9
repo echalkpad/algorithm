@@ -6,6 +6,3 @@ Best case performance	O(n)
 Average case performance	O(n^2)
 Worst case space complexity	O(1) auxiliary
 
-ex: arr[n] =  4  3  2  1 
-数列i in 0~n-1个数分别作为基准（例如：最开始为4）
-与数列第j in 0~n-2个数比较 -> arr[j] compared with arr[i]

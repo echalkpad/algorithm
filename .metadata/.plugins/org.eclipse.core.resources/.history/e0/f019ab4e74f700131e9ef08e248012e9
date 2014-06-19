@@ -1,0 +1,16 @@
+package sortbubble;
+
+import java.util.Scanner;
+
+public class BubbleSortTest {
+
+	/**
+	 * Bubble Sort
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Input an integer array.");
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}
