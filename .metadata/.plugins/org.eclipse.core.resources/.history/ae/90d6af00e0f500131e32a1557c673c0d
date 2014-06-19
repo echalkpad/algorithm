@@ -1,0 +1,15 @@
+package bouncingball;
+
+import java.util.Scanner;
+
+public class BouncingBallTest {
+
+	/**
+	 * Bouncing ball
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}

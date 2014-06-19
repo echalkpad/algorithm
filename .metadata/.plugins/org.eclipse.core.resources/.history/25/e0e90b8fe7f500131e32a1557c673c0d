@@ -1,0 +1,9 @@
+package hanoitower;
+
+import java.util.Stack;
+
+public class Tower {
+	private int number; // number of tower
+	private String name; // name of tower
+	private Stack<E> stack = new Stack<E>();
+}

@@ -1,0 +1,8 @@
+判断101-200之间有多少个素数，并输出所有素数。
+
+Pseudo code:
+for(num = 101; num < 201; num++){
+	for(i = 2; i < sqrt(num); i++){
+		whether num%i == 0;
+	}
+}

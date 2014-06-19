@@ -1,0 +1,14 @@
+package checkinputstring;
+
+public class CheckInputStringTest {
+
+	/**
+	 * Check input string: how many integers, characters, spaces or other type characters.
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

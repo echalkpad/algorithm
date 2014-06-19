@@ -1,0 +1,22 @@
+package multiplicationchart;
+
+public class MultiplicationChartTest {
+
+	/**
+	 * Multiplication chart printed from the right side
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		for(int i = 1; i <= 9; i++){
+			for(int j = 1; j <= i; j++){
+				for(int k = 0; k < 9-j; k++) System.out.print("   ");
+				for(int m = j; m > 0; m--){
+					System.out.print(i+" * "+j);
+					break;
+				}
+			}
+			System.out.println();
+		}
+	}
+
+}

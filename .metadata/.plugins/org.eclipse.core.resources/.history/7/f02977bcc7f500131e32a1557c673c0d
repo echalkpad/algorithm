@@ -1,0 +1,21 @@
+package primenumber;
+
+import java.util.ArrayList;
+
+public class PrimeNumberTest {
+
+	/**
+	 * Prime Number: check the number of prime numbers between 101 and 200
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+	
+	protected static ArrayList<int> prime() {
+		ArrayList<int> list = new ArrayList<int>();
+		
+		return list;
+	}
+
+}

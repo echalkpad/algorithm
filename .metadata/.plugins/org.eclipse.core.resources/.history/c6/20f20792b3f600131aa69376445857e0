@@ -1,0 +1,14 @@
+补充-洗牌算法
+将N个数乱序后输出.很多地方都不自觉的需要这个算法的支持.
+也可以将这个算法扩展为从N个数中取出M个不重复的数(0<M<=N).
+
+有n个数据的数据列，从第一个元素开始，随机取出数据列中元素与之交换，依次进行n次交换，即可得到一个随机排列的数据列
+
+		data[i] = data[i] + data[j];  
+        data[j] = data[i] - data[j];  
+        data[i] = data[i] - data[j];  
+        
+        for (int i = 0; i < data.length - 1; i++) {  
+            int j = (int) (data.length * Math.random());  
+            swap(data, i, j);  
+        }  

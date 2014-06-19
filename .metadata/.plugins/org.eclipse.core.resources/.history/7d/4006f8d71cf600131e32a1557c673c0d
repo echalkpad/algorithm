@@ -1,0 +1,20 @@
+有一对兔子，从出生后第3个月起每个月都生一对兔子，
+小兔子长到第四个月后每个月又生一对兔子，假如兔子都不死，
+问每个月的兔子总数为多少？
+
+1   2A   -> 2
+2   2A   -> 2
+3   2A+2B   ->4
+4   2A+2C   +2B   -> 6
+5   2A+2D   +2C   +2B+2E   ->10
+6   2A+2F   +2D   +2C+2G   +2B+2H   +2E   -> 16
+7   2A+2I   +2F   +2D+2J   +2C+2K   +2G   +2B+2L   +2H   +2E+2M   -> 26
+
+Pseudo code:
+if month == 1 or 2
+then fibonacci = 1 * 2;
+else 
+then fibonacci = fibonacci(month-1) + fibonacci(month-2);
+
+
+

@@ -1,0 +1,20 @@
+package bouncingball;
+
+import java.util.Scanner;
+
+public class BouncingBallTest {
+
+	/**
+	 * Bouncing ball
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Input the height for the very first.");
+		int height = scanner.nextInt();
+		System.out.println("Input the bouncing time.");
+		int time = scanner.nextInt();
+		
+	}
+
+}

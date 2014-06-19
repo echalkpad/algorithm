@@ -1,0 +1,14 @@
+package hanoitower;
+
+public class HanoiTowerTest {
+
+	/**
+	 * Hanoi Tower
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		HanoiTowerTest hanoi = new HanoiTowerTest();
+		Tower<Tray> 
+	}
+
+}

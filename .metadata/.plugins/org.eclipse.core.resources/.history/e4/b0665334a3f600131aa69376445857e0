@@ -1,0 +1,16 @@
+package primefactor;
+
+import java.util.Scanner;
+
+public class PrimeFactorTest {
+
+	/**
+	 * Prime Factor
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Input an integer number.");
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}

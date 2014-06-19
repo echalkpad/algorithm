@@ -1,0 +1,9 @@
+求s=a+aa+aaa+aaaa+aa...a的值，其中a是一个数字。例如2+22+222+2222+22222(此时共有5个数相加)，几个数相加有键盘控制。
+
+Pseudo code:
+int newNum = 1;
+int k = 1;
+while(i = 0; i < time; i++)
+k *= 10; // multiply by 10 for time times
+num += k; // add from 1 to 111...(time digits)
+num *= a;

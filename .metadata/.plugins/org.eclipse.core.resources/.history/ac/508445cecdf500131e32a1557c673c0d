@@ -1,0 +1,17 @@
+package overlyingaddition;
+
+import java.util.Scanner;
+
+public class OverlyingAdditionTest {
+
+	/**
+	 * Overlying Addition
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Input an integer for value a.");
+		Scanner scanner = new Scanner(System.in);
+
+	}
+
+}

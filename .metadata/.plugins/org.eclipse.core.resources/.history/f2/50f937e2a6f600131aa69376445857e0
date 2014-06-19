@@ -1,0 +1,28 @@
+package gcdlcm;
+
+import java.util.Scanner;
+
+public class GcdLcmTest {
+
+	/**
+	 * Gcd & Lcm
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Input one number.");
+		int input1 = scanner.nextInt();
+		System.out.println("Input the other number.");
+		int input2 = scanner.nextInt();
+
+	}
+
+	protected static int gcd(int greater, int smaller) {
+		
+	}
+
+	protected static int lcm(int greater, int smaller, int gcd) {
+		return greater*smaller/gcd;
+	}
+
+}

@@ -1,0 +1,14 @@
+package primenumber;
+
+public class PrimeNumberTest {
+
+	/**
+	 * Prime Number: check the number of prime numbers between 101 and 200
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

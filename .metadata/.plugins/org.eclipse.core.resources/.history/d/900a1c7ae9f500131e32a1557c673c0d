@@ -1,0 +1,58 @@
+package hanoitower;
+
+import java.util.Scanner;
+
+public class HanoiTowerTest {
+
+	/**
+	 * Hanoi Tower
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		HanoiTowerTest hanoi = new HanoiTowerTest();
+		Tower<Tray> from = new Tower(1, "Tower 1");
+		Tower<Tray> middle = new Tower(2, "Tower 2");
+		Tower<Tray> to = new Tower(3, "Tower 3");
+		
+		System.out.println("Input the number of trays.");
+		Scanner scanner = new Scanner(System.in);
+		int number = scanner.nextInt();
+		
+		for(int i = number; i > 0; i--){
+			Tray tray = new Tray(i, "Tray "+i);
+			from.getStack().push(tray);
+		}
+	}
+	
+	public <T> void hanoi(int num, Tower<T> from, Tower<T> middle, Tower<T> to){
+		
+	}
+	
+	private <E> void move(Tower<E> from, Tower<E> middle, Tower<E> to){
+		E tray = from.getStack().pop();
+		to.getStack().push(tray);
+		StringBuilder sb = new StringBuilder();  
+	       sb.append("=====================Hanoi.move()======================\n")  
+	       .append(" Move tray : ").append(((Tray)tray).getName())  
+	       .append(" from ").append(from.getName()).append(" to ")  
+	       .append(to.getName()).append("\n ")  
+	       .append(from.getName()).append(":").append(format(from)).append(",")  
+	       .append(middle.getName()).append(":").append(format(middle)).append(",")  
+	       .append(to.getName()).append(":").append(format(to));  
+	       System.out.println(sb.toString());  
+	}
+	
+	private <E> String format(Tower<E> tower) {  
+	       Iterator<E> i = tower.getStack().iterator();  
+	       if (! i.hasNext())  
+	           return "[]";  
+	       StringBuilder sb = new StringBuilder();  
+	       sb.append('[');  
+	       while(i.hasNext()) {  
+	           sb.append(i.next().toString()).append(",");  
+	       }  
+	       sb.replace(sb.length()-1, sb.length(), "]");  
+	       return sb.toString();  
+	    }  
+
+}

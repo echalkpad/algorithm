@@ -1,0 +1,35 @@
+package hanoitower;
+
+import java.util.Scanner;
+
+public class HanoiTowerTest {
+
+	/**
+	 * Hanoi Tower
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		HanoiTowerTest hanoi = new HanoiTowerTest();
+		Tower<Tray> from = new Tower(1, "Tower 1");
+		Tower<Tray> middle = new Tower(2, "Tower 2");
+		Tower<Tray> to = new Tower(3, "Tower 3");
+		
+		System.out.println("Input the number of trays.");
+		Scanner scanner = new Scanner(System.in);
+		int number = scanner.nextInt();
+		
+		for(int i = number; i > 0; i--){
+			Tray tray = new Tray(i, "Tray "+i);
+			from.getStack().push(tray);
+		}
+	}
+	
+	public <T> void hanoi(int num, Tower<T> from, Tower<T> middle, Tower<T> to){
+		
+	}
+	
+	private <E> void move(Tower<E> from, Tower<E> middle, Tower<E> to){
+		
+	}
+
+}

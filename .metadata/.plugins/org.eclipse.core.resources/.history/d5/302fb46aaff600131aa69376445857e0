@@ -1,0 +1,13 @@
+package palindromenumber;
+
+public class PalindromeNumberTest {
+
+	/**
+	 * Palindrome Number
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

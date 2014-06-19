@@ -1,0 +1,33 @@
+package overlyingaddition;
+
+import java.util.Scanner;
+
+public class OverlyingAdditionTest {
+
+	/**
+	 * Overlying Addition
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Input an integer for value a.");
+		int a = scanner.nextInt();
+		System.out.println("Input an integer for times.");
+		int time = scanner.nextInt();
+		int result = overlyingAddition(a, time);
+		System.out.println("Result: "+result);
+	}
+	
+	protected static int overlyingAddition(int a, int time) {
+		int sum = 0;
+		int newNum = 1;
+		int temp = 1;
+		for(int i = 0; i <= time; i++){
+			temp *= 10;
+			newNum += temp;
+			System.out.println(newNum+"***");
+		}
+		newNum *= a;
+		return sum;
+	}
+}

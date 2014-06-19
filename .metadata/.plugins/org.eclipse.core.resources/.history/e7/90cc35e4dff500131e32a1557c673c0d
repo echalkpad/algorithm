@@ -1,0 +1,13 @@
+package bouncingball;
+
+public class BouncingBallTest {
+
+	/**
+	 * Bouncing ball
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package armstrongnumber;
+
+import java.util.Scanner;
+
+public class ArmstrongNumberTest {
+
+	/**
+	 * Armstrong Number
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Input a 3 digits number");
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}

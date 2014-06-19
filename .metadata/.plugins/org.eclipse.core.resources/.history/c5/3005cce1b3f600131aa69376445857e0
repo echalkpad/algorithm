@@ -1,0 +1,16 @@
+package pokershuffle;
+
+public class PokerShuffleTest {
+
+	/**
+	 * Poker Shuffle
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[] poker = new int[52];
+		for(int i = 0; i < 52; i++){
+			int[i] = i;
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+package gcdlcm;
+
+public class GcdLcmTest {
+
+	/**
+	 * Gcd & Lcm
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,25 @@
+巴斯卡三角形
+
+			                 0C0
+			            1C0     1C1
+			       2C0    2C1    2C2
+			   3C0    3C1    3C2    3C3
+		  4C0    4C1    4C2    4C3    4C4
+		  					..........
+		  					
+Pseudo code 1:
+n <- get input
+for(i from 0 to n-1)
+	for(j from 0 to i)
+		iCj
+		
+function nCr(n, r)
+if(r == 0) nCr = 1;
+else n!/(r!*(n-r)!);
+
+function n!(num)
+if(num == 0) return 1;
+else return num * n!(num-1);	
+
+Pseudo code 2:	
+		  					
