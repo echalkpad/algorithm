@@ -22,8 +22,17 @@ public class BubbleSortTest {
 		}
 		System.out.println("\n**************");
 
+		int[] newArr = bubbleSort(arr);
+
+		for (int i = 0; i < newArr.length; i++) {
+			System.out.print(newArr[i] + "  ");
+		}
+	}
+
+	public static int[] bubbleSort(int[] arr) {
 		int temp = 0;
-		for (int i = arr.length - 1; i > 0; i--) { // Let the (n-1)th element be the standard, until 0
+		for (int i = arr.length - 1; i > 0; i--) { // Let the (n-1)th element be
+													// the standard, until 1
 			for (int j = 0; j < i; j++) {
 				if (arr[j + 1] < arr[j]) {
 					temp = arr[j];
@@ -31,16 +40,14 @@ public class BubbleSortTest {
 					arr[j + 1] = temp;
 				}
 				// Show the procedure
-				/*for (int ii = 0; ii < arr.length; ii++) {
-					System.out.print(arr[ii] + "  ");
-				}
-				System.out.println("\n**************");*/
+				/*
+				 * for (int ii = 0; ii < arr.length; ii++) {
+				 * System.out.print(arr[ii] + "  "); }
+				 * System.out.println("\n**************");
+				 */
 			}
 		}
-
-		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i] + "  ");
-		}
+		return arr;
 	}
 
 }

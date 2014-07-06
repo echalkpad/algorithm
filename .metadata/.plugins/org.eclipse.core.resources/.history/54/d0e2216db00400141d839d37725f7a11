@@ -1,0 +1,16 @@
+package sortselection;
+
+import java.util.Scanner;
+
+public class SelectionSortTest {
+
+	/**
+	 * Selection Sort
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Input an integer array of five numbers.");
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}

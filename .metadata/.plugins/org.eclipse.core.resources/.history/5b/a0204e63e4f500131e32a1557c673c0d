@@ -1,7 +1,0 @@
-99乘法口诀表 靠右输出
-
-for(i in 1~9){ // row
-	for(j 1~i) // column
-		for(9-j times) print("   ");
-		for(j times to 0) print(i + "*" +j)
-}

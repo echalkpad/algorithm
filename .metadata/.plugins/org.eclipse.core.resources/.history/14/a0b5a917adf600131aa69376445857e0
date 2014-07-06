@@ -1,4 +1,0 @@
-判断是不是回文数。即12321是回文数。
-
-Pseudo code:
-String input <- get input

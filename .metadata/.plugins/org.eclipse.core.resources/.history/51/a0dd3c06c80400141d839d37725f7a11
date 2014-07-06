@@ -1,0 +1,16 @@
+插入排序 Insertion Sort
+
+Class	Sorting algorithm
+Data structure	Array
+Worst case performance	О(n^2) comparisons, swaps
+Best case performance	O(n) comparisons, O(1) swaps
+Average case performance	О(n^2) comparisons, swaps
+Worst case space complexity	О(n) total, O(1) auxiliary
+
+
+
+a simple sorting algorithm that builds the final sorted array (or list) one item at a time. 
+It is much less efficient on large lists than more advanced algorithms 
+such as quicksort, heapsort, or merge sort.
+More efficient in practice than most other simple quadratic (i.e., O(n^2)) algorithms such as selection sort or bubble sort; 
+the best case (nearly sorted input) is O(n)

@@ -1,7 +1,0 @@
-一个数如果恰好等于它的因子之和，这个数就称为 "完数 "。例如6=1＋2＋3.
-找出1000以内的所有完数。
-
-for(every number num from 1 to 1000)
-for(every number i from 1 to num)
-if(num%i == 0) sum += i;
-if (sum == num) arraylist.add(num);

@@ -1,6 +1,0 @@
-99乘法口诀表 靠右输出
-
-for(i in 1~9){ // row
-	for(j 1~j) // column
-	
-}

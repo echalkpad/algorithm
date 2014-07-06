@@ -1,0 +1,17 @@
+选择排序 Selection Sort
+
+Data structure	Array
+Worst case performance	О(n^2)
+Best case performance	О(n^2)
+Average case performance	О(n^2)
+Worst case space complexity	О(n) total, O(1) auxiliary
+
+自1开始设置为最小数的index，并进行内部循环与第index的数比较，若出现更小数字，将对应数字的index赋值。
+比较从1开始的数字与新index，若不为一个数，交换两位置的数字顺序。
+适用于排序小的列表。
+
+It has O(n^2) time complexity, making it inefficient on large lists, 
+and generally performs worse than the similar insertion sort. 
+Selection sort is noted for its simplicity, 
+and it has performance advantages over more complicated algorithms in certain situations, 
+particularly where auxiliary memory is limited.
