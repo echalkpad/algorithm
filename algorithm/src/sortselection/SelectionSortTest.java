@@ -6,7 +6,6 @@ public class SelectionSortTest {
 
 	/**
 	 * Selection Sort
-	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -28,7 +27,7 @@ public class SelectionSortTest {
 		}
 	}
 	
-	public static int[] selectionSort (int[] arr){
+	protected static int[] selectionSort (int[] arr){
 		int minIndex = 0;
 		for(int i = 0; i < arr.length-1; i++){
 			minIndex = i;

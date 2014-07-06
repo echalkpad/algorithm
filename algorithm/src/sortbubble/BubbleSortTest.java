@@ -29,7 +29,7 @@ public class BubbleSortTest {
 		}
 	}
 
-	public static int[] bubbleSort(int[] arr) {
+	protected static int[] bubbleSort(int[] arr) {
 		int temp = 0;
 		for (int i = arr.length - 1; i > 0; i--) { // Let the (n-1)th element be
 													// the standard, until 1
