@@ -1,9 +1,20 @@
-Shell Sort 壳（Shell）排序——缩小增量排序 
+Shell Sort   壳排序, 缩小增量排序
+
+Data structure	Array
+Worst case performance	O(n^2)
+Best case performance	O(n log n)
+Average case performance	depends on gap sequence
+Worst case space complexity	О(n) total, O(1) auxiliary
+
+适用于排序小列表。 
+效率估计O（nlog2^n）~O（n^1.5），取决于增量值的最初大小。
+建议使用质数作为增量值，因为如果增量值是2的幂，则在下一个通道中会再次比较相同的元素。 
+壳（Shell）排序改进了插入排序，减少了比较的次数。
+是不稳定的排序，因为排序过程中元素可能会前后跳跃。 
 
 An in-place comparison sort. 
 It can be seen as either a generalization of sorting by exchange (bubble sort) 
 or sorting by insertion (insertion sort).
 The method starts by sorting elements far apart from each other 
 and progressively reducing the gap between them. 
-Starting with far apart elements can move some out-of-place elements into position 
-faster than a simple nearest neighbor exchange.
+The running time of Shellsort is heavily dependent on the gap sequence it uses.

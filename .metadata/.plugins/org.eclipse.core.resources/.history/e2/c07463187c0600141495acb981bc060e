@@ -1,0 +1,13 @@
+package sortquick;
+
+public class QuickSort {
+
+	/**
+	 * Quick Sort
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

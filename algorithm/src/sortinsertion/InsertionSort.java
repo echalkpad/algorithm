@@ -30,12 +30,13 @@ public class InsertionSort {
 	protected static int[] insertionSort(int[] arr){
 		for(int i = 1; i < arr.length; i++){
 			int temp = arr[i];
-			for(int j = i-1; j >= 0; j--){
+			int j = i-1;
+			for(; j >= 0; j--){
 				if(arr[j] > temp){
 					arr[j+1] = arr[j];
-					arr[j] = temp;
 				}
 			}
+			arr[j+1] = temp;
 		}
 		return arr;
 	}

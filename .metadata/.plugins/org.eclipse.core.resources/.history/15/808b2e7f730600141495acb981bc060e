@@ -1,0 +1,11 @@
+Merge Sort   归并排序
+
+Data structure	Array
+Worst case performance	O(n log n)
+Best case performance	
+O(n log n) typical, O(n) natural variant
+Average case performance	O(n log n)
+Worst case space complexity	O(n) auxiliary
+
+
+ Merge sort is a divide and conquer algorithm.

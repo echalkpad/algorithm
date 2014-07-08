@@ -1,0 +1,17 @@
+Shell Sort
+
+Class	Sorting algorithm
+Data structure	Array
+Worst case performance	O(n^2)
+Best case performance	O(n log n)
+Average case performance	depends on gap sequence
+Worst case space complexity	О(n) total, O(1) auxiliary
+
+
+
+An in-place comparison sort. 
+It can be seen as either a generalization of sorting by exchange (bubble sort) 
+or sorting by insertion (insertion sort).
+The method starts by sorting elements far apart from each other 
+and progressively reducing the gap between them. 
+The running time of Shellsort is heavily dependent on the gap sequence it uses.

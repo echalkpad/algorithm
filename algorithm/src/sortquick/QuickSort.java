@@ -1,0 +1,58 @@
+package sortquick;
+
+import java.util.Scanner;
+
+public class QuickSort {
+
+	/**
+	 * Quick Sort
+	 * @param args
+	 */
+	static int[] arr = new int[10];
+	public static void main(String[] args) {
+		System.out.println("Input an integer array of ten numbers.");
+		Scanner scanner = new Scanner(System.in);
+		
+		for(int i = 0; i < arr.length; i++){
+			arr[i] = scanner.nextInt();
+		}
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + "  ");
+		}
+		System.out.println("\n**************");
+		
+		quickSort(arr, 0, arr.length-1);
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}		
+	}
+	
+	protected static void quickSort(int arr[], int left, int right) {
+		int index = partition(arr, left, right);
+		if(left < index-1)
+			quickSort(arr, left, index-1);
+		if(index < right)
+			quickSort(arr, index-1, right);
+	}
+	
+	protected static int partition(int arr[], int left, int right) {
+		int i = left, j = right;
+		int temp;
+		int pivot = arr[(left + right) / 2];
+		while(i <= j){
+			while(arr[i] < pivot)
+				i++;
+			while(arr[j] > pivot)
+				j--;
+			if(i <= j){
+				temp = arr[i];
+				arr[i] = arr[j];
+				arr[j] = temp;
+				i++;
+				j--;
+			}
+		}
+		return i;
+	}
+
+}

@@ -1,0 +1,9 @@
+Quick Sort 快速排序 
+
+Class	Sorting algorithm
+Worst case performance	O(n^2)
+Best case performance	O(n log n) (simple partition)
+or O(n) (three-way partition and equal keys)
+Average case performance	O(n log n)
+Worst case space complexity	O(n) auxiliary (naive)
+O(log n) auxiliary 

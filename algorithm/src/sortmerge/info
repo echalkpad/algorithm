@@ -1,0 +1,14 @@
+Merge Sort   归并排序
+
+Data structure	Array
+Worst case performance	O(n log n)
+Best case performance	
+O(n log n) typical, O(n) natural variant
+Average case performance	O(n log n)
+Worst case space complexity	O(n) auxiliary
+
+将序列无限对分直至只剩两个元素并进行比较。
+效率O（nlogn），归并的最佳、平均和最糟用例效率之间没有差异。 
+适用于排序大列表，基于分治法。
+
+ Merge sort is a divide and conquer algorithm.

@@ -1,0 +1,20 @@
+Quick Sort 快速排序 
+
+Class	Sorting algorithm
+Worst case performance	O(n^2)
+Best case performance	O(n log n) (simple partition)
+or O(n) (three-way partition and equal keys)
+Average case performance	O(n log n)
+Worst case space complexity	O(n) auxiliary (naive)
+O(log n) auxiliary 
+
+选定一个枢纽元素，对待排序序列进行分割，分割之后的序列一个部分小于枢纽元素，
+一个部分大于枢纽元素，再对这两个分割好的子序列进行上述的过程。
+
+Quicksort's sequential and localized memory references work well with a cache. 
+Quick sort is a comparison sort and, in efficient implementations, is not a stable sort.
+
+The divide-and-conquer strategy is used in quicksort. Below the recursion step is described:
+Choose a pivot value. We take the value of the middle element as pivot value, but it can be any value, which is in range of sorted values, even if it doesn't present in the array.
+Partition. Rearrange elements in such a way, that all elements which are lesser than the pivot go to the left part of the array and all elements greater than the pivot, go to the right part of the array. Values equal to the pivot can stay in any part of the array. Notice, that array may be divided in non-equal parts.
+Sort both parts. Apply quicksort algorithm recursively to the left and the right parts.
